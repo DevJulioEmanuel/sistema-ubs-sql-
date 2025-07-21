@@ -15,7 +15,7 @@ CREATE TABLE Pessoa (
 -- Tabela Profissionais_saude
 CREATE TABLE Profissionais_saude (
     CPF VARCHAR(14) PRIMARY KEY,
-    ID_profissional INT UNIQUE,
+    ID_profissional VARCHAR(20) UNIQUE,
     Turno VARCHAR(20),
     Data_Admissao DATE,
     Status VARCHAR(20),
@@ -80,15 +80,24 @@ CREATE TABLE Paciente_tem_sintomas (
 
 -- Tabela Triagem
 CREATE TABLE Triagem (
-    ID_Triagem INT PRIMARY KEY,
+    ID_Triagem SERIAL PRIMARY KEY,
     CPF_Enfermeiro VARCHAR(14),
     CPF_Tecnico VARCHAR(14),
     CPF_Paciente VARCHAR(14),
     Classificacao_Prioridade VARCHAR(50),
-    Sinais_Vitais TEXT,
     FOREIGN KEY (CPF_Enfermeiro) REFERENCES Enfermeiro(CPF),
     FOREIGN KEY (CPF_Tecnico) REFERENCES Tecnico_Enfermagem(CPF),
     FOREIGN KEY (CPF_Paciente) REFERENCES Paciente(CPF)
+);
+
+-- Tabela sinais_vitais
+CREATE TABLE sinais_vitais (
+    id_sinaisvitais SERIAL PRIMARY KEY,
+    triagem_id INTEGER REFERENCES triagem(id_triagem) ON DELETE CASCADE,
+    temperatura DECIMAL(4,1),
+    pressao_arterial VARCHAR(10),
+    frequencia_cardiaca INTEGER,
+    frequencia_respiratoria INTEGER
 );
 
 -- Tabela Consulta
