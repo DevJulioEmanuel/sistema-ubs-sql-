@@ -64,18 +64,11 @@ CREATE TABLE Paciente (
 
 -- Tabela Sintomas
 CREATE TABLE Sintomas (
-    ID_Sintoma SERIAL PRIMARY KEY,
-    Nome VARCHAR(100)
-);
-
--- Paciente_tem_sintomas (relacionamento N:N)
-CREATE TABLE Paciente_tem_sintomas (
-    ID_ps INT,
-    CPF VARCHAR(14),
-    Descricao TEXT,
-    PRIMARY KEY (ID_ps, CPF),
-    FOREIGN KEY (ID_ps) REFERENCES Sintomas(ID_Sintoma),
-    FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente)
+    id_sintoma SERIAL PRIMARY KEY,
+	CPF VARCHAR(14),
+   	Sintomas TEXT,
+	Descricao TEXT,
+	FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente)
 );
 
 -- Tabela Triagem

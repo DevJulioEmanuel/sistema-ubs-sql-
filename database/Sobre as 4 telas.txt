@@ -1,0 +1,7 @@
+Tela 01 - CRUD de Pessoa, seja médico, paciente, enfermeiro, etc.
+
+Tela 02 - CRUD para triagem
+
+Tela 03 - CRUD para fila.
+
+Tela 04 - CRUD para consulta.
