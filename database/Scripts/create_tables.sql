@@ -65,10 +65,12 @@ CREATE TABLE Paciente (
 -- Tabela Sintomas
 CREATE TABLE Sintomas (
     id_sintoma SERIAL PRIMARY KEY,
-	CPF VARCHAR(14),
-   	Sintomas TEXT,
-	Descricao TEXT,
-	FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente)
+    CPF VARCHAR(14),
+    Sintomas TEXT,
+    Descricao TEXT,
+    id_triagem INTEGER,
+    FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente),
+    FOREIGN KEY (id_triagem) REFERENCES Triagem(ID_Triagem) -- Nova chave estrangeira
 );
 
 -- Tabela Triagem
