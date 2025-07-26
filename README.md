@@ -6,3 +6,11 @@ Com foco em filas de atendimento, triagem, consultas médicas e encaminhamentos,
 Este trabalho foi desenvolvido na disciplina Fundamentos de Banco de Dados, ministrada pela professora Lívia Almada.
 
 Integrantes do grupo: Julio Emanuel, Victor Farias, Arthur Lelis, Henrique Mendes
+
+Tela 01 - CRUD de Pessoa, seja médico, paciente, enfermeiro, etc.
+
+Tela 02 - CRUD para triagem
+
+Tela 03 - CRUD para fila.
+
+Tela 04 - CRUD para consulta.
