@@ -209,49 +209,100 @@ INSERT INTO Recepcionista VALUES
 ('001.222.444-66', 'Tarde');
 
 -- Inserção na tabela Paciente
-    INSERT INTO paciente (cpf_paciente, grupoprioritario) VALUES
+INSERT INTO paciente (cpf_paciente, grupoprioritario) VALUES
+('123.456.789-01', FALSE),
+('987.654.321-02', FALSE),
+('111.222.333-44', TRUE),
+('555.666.777-88', FALSE),
+('000.999.888-77', TRUE),
+('333.444.555-66', FALSE),
+('666.777.888-99', FALSE),
+('222.333.444-55', TRUE),
+('777.888.999-00', TRUE),
+('444.555.666-11', FALSE);
 
-    -- Nascido em 1963, então TRUE
-    ('333.444.555-66', FALSE),
-    ('666.777.888-99', FALSE),
-    ('222.333.444-55', FALSE),
-    ('777.888.999-00', TRUE),
-    ('444.555.666-11', FALSE),
-    ('999.888.777-66', FALSE),
-    ('888.777.666-55', FALSE),
-    ('777.666.555-44', TRUE),
-    ('666.555.444-33', FALSE),
-    ('555.444.333-22', TRUE),
-    ('444.333.222-11', FALSE),
-    ('333.222.111-00', FALSE),
-    ('222.111.000-99', FALSE),
-    ('111.000.999-88', FALSE),
-    ('001.111.222-33', FALSE);
 
--- Inserção na tabela Sintoma
-INSERT INTO sintomas VALUES
-(1, 'Febre'),
-(2, 'Dor de cabeça'),
-(3, 'Tosse'),
-(4, 'Dor no corpo'),
-(5, 'Falta de ar'),
-(6, 'Dor de garganta'),
-(7, 'Náusea'),
-(8, 'Vômito'),
-(9, 'Diarreia'),
-(10, 'Cansaço'),
-(11, 'Tontura'),
-(12, 'Coceira'),
-(13, 'Manchas na pele'),
-(14, 'Inchaço'),
-(15, 'Palpitação'),
-(16, 'Calafrios'),
-(17, 'Perda de apetite'),
-(18, 'Sudorese'),
-(19, 'Desmaio'),
-(20, 'Confusão mental'),
-(21, 'Dor abdominal'),
-(22, 'Queimação'),
-(23, 'Sensibilidade à luz'),
-(24, 'Rouquidão'),
-(25, 'Irritação nos olhos');
+-- Tabela Sintomas
+CREATE TABLE Sintomas (
+    ID_Sintoma SERIAL PRIMARY KEY,
+    CPF VARCHAR(14),
+    Sintomas TEXT,
+    Descricao TEXT,
+    ID_Triagem INTEGER,
+    FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente),
+    FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem) -- Nova chave estrangeira
+);
+
+INSERT INTO Sintomas (CPF, Sintomas, Descricao, ID_Triagem) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();
+
+INSERT INTO Triagem (ID_Triagem, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, Classificacao_Prioridade) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();
+
+INSERT INTO Sinais_Vitais (ID_Triagem, Temperatura, Pressao_Arterial , Frequencia_Cardiaca, Frequencia_Respiratoria) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();
+
+INSERT INTO Consulta (ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, CPF_Medico, Data_Consulta, Status) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();
+
+-- Tabela Fila
+
+INSERT INTO Fila (CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();
+
+INSERT INTO Encaminhamento (CPF, Data_Encaminhamento, ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, CPF_Medico, ID_Consulta) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();

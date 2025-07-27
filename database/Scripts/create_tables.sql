@@ -64,13 +64,13 @@ CREATE TABLE Paciente (
 
 -- Tabela Sintomas
 CREATE TABLE Sintomas (
-    id_sintoma SERIAL PRIMARY KEY,
+    ID_Sintoma SERIAL PRIMARY KEY,
     CPF VARCHAR(14),
     Sintomas TEXT,
     Descricao TEXT,
-    id_triagem INTEGER,
+    ID_Triagem INTEGER,
     FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente),
-    FOREIGN KEY (id_triagem) REFERENCES Triagem(ID_Triagem) -- Nova chave estrangeira
+    FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem) -- Nova chave estrangeira
 );
 
 -- Tabela Triagem
@@ -85,14 +85,14 @@ CREATE TABLE Triagem (
     FOREIGN KEY (CPF_Paciente) REFERENCES Paciente(CPF_paciente)
 );
 
--- Tabela sinais_vitais
-CREATE TABLE sinais_vitais (
-    id_sinaisvitais SERIAL PRIMARY KEY,
-    triagem_id INTEGER REFERENCES triagem(id_triagem),
-    temperatura DECIMAL(2,1),
-    pressao_arterial VARCHAR(10),
-    frequencia_cardiaca INTEGER,
-    frequencia_respiratoria INTEGER
+-- Tabela Sinais_Vitais
+CREATE TABLE Sinais_Vitais (
+    ID_Sinais_Vitais SERIAL PRIMARY KEY,
+    ID_Triagem INTEGER REFERENCES Triagem(ID_Triagem),
+    Temperatura DECIMAL(2,1),
+    Pressao_Arterial VARCHAR(10),
+    Frequencia_Cardiaca INTEGER,
+    Frequencia_Respiratoria INTEGER
 );
 
 -- Tabela Consulta
