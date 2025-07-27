@@ -255,3 +255,18 @@ INSERT INTO sintomas VALUES
 (23, 'Sensibilidade à luz'),
 (24, 'Rouquidão'),
 (25, 'Irritação nos olhos');
+
+CREATE TABLE Fila (
+    ID_Fila SERIAL PRIMARY KEY,
+    CPF_Enfermeiro VARCHAR(14),
+    CPF_Tecnico VARCHAR(14),
+    CPF_Paciente VARCHAR(14),
+    ID_Triagem INT NOT NULL,
+	status varchar(50),
+	hora_entrada TIMESTAMP,
+	hora_atendimento TIMESTAMP,
+    FOREIGN KEY (CPF_Enfermeiro) REFERENCES Enfermeiro(CPF_enfermeiro),
+    FOREIGN KEY (CPF_Tecnico) REFERENCES Tecnico_Enfermagem(CPF_tecnico),
+    FOREIGN KEY (CPF_Paciente) REFERENCES Paciente(CPF_paciente),
+    FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem)
+);
