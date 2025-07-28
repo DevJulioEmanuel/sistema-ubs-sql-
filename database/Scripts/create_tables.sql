@@ -89,7 +89,7 @@ CREATE TABLE Triagem (
 CREATE TABLE Sinais_Vitais (
     ID_Sinais_Vitais SERIAL PRIMARY KEY,
     ID_Triagem INTEGER REFERENCES Triagem(ID_Triagem),
-    Temperatura DECIMAL(2,1),
+    Temperatura DECIMAL(4,2),
     Pressao_Arterial VARCHAR(10),
     Frequencia_Cardiaca INTEGER,
     Frequencia_Respiratoria INTEGER
