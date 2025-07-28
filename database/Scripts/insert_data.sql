@@ -13,18 +13,7 @@ INSERT INTO Pessoa (CPF, Pnome, Sobrenome, Data_nasc, CNS, Sexo, Telefone, Rua, 
 ('222.333.444-55', 'Isabela', 'Martins', '1970-06-03', '700000000000008', 'F', '81921098765', 'Avenida das Árvores', 'Planalto', 505),
 ('777.888.999-00', 'Mateus', 'Rodrigues', '1981-12-01', '700000000000009', 'M', '91910987654', 'Praça Central', 'Centro', 606),
 ('444.555.666-11', 'Laura', 'Gomes', '1998-08-18', '700000000000010', 'F', '11909876543', 'Rua Nova', 'Vila Rica', 707),
--- 20 Pacientes
-('999.888.777-66', 'Carlos', 'Ferreira', '1975-05-30', '700000000000011', 'M', '21998765431', 'Rua das Pedras', 'Jardim Europa', 808),
-('888.777.666-55', 'Beatriz', 'Lima', '1989-10-14', '700000000000012', 'F', '31987654320', 'Avenida das Flores', 'Bela Vista', 909),
-('777.666.555-44', 'Rafael', 'Barbosa', '1968-12-25', '700000000000013', 'M', '41976543219', 'Travessa dos Artistas', 'Santa Maria', 1010),
-('666.555.444-33', 'Juliana', 'Ribeiro', '1993-03-08', '700000000000014', 'F', '51965432108', 'Alameda das Rosas', 'Jardim Paulista', 1111),
-('555.444.333-22', 'Marcelo', 'Cardoso', '1980-07-19', '700000000000015', 'M', '61954321097', 'Rua dos Coqueiros', 'Praia Grande', 1212),
-('444.333.222-11', 'Patrícia', 'Fernandes', '1972-09-02', '700000000000016', 'F', '71943210986', 'Avenida Central', 'Centro', 1313),
-('333.222.111-00', 'Felipe', 'Dias', '1996-01-27', '700000000000017', 'M', '81932109875', 'Rua das Palmeiras', 'Jardim Primavera', 1414),
-('222.111.000-99', 'Camila', 'Nunes', '1984-04-05', '700000000000018', 'F', '91921098764', 'Travessa da Esperança', 'Vila Esperança', 1515),
-('111.000.999-88', 'Daniel', 'Carvalho', '1979-11-11', '700000000000019', 'M', '11910987653', 'Avenida dos Estados', 'Centro', 1616),
-('001.111.222-33', 'Tatiane', 'Monteiro', '1991-02-23', '700000000000020', 'F', '21909876542', 'Rua das Acácias', 'Parque das Árvores', 1717),
--- 30 Medico
+-- 20 Medico
 ('123.987.654-32', 'Eduardo', 'Vieira', '1983-08-17', '700000000000021', 'M', '11988776655', 'Rua das Oliveiras', 'Vila Olímpia', 1818),  
 ('456.789.123-45', 'Fernanda', 'Teixeira', '1994-06-29', '700000000000022', 'F', '21977665544', 'Avenida das Nações', 'Boa Viagem', 1919),  
 ('789.123.456-78', 'Roberto', 'Mendes', '1976-04-09', '700000000000023', 'M', '31966554433', 'Travessa dos Girassóis', 'Jardim Botânico', 2020),  
@@ -35,7 +24,7 @@ INSERT INTO Pessoa (CPF, Pnome, Sobrenome, Data_nasc, CNS, Sexo, Telefone, Rua, 
 ('246.357.159-26', 'Helena', 'Cavalcanti', '1971-03-12', '700000000000028', 'F', '81911009988', 'Travessa dos Cravos', 'Ipanema', 2525),  
 ('357.159.246-37', 'Diego', 'Fonseca', '1999-05-25', '700000000000029', 'M', '91900998877', 'Avenida das Palmeiras', 'Leblon', 2626),  
 ('159.246.357-18', 'Clara', 'Araújo', '1986-09-08', '700000000000030', 'F', '11999887766', 'Rua das Margaridas', 'Botafogo', 2727),
--- 40 enfermeiro
+-- 30 enfermeiro
 ('111.222.333-43', 'Bruno', 'Nascimento', '1980-01-05', '700000000000031', 'M', '11988776654', 'Rua das Acácias', 'Centro', 2828),  
 ('222.333.434-55', 'Larissa', 'Dantas', '1992-07-19', '700000000000032', 'F', '21977665543', 'Avenida das Flores', 'Jardins', 2929),  
 ('333.424.555-66', 'Marcos', 'Xavier', '1973-11-23', '700000000000033', 'M', '31966554432', 'Travessa dos Pássaros', 'Vila Nova', 3030),  
@@ -47,7 +36,7 @@ INSERT INTO Pessoa (CPF, Pnome, Sobrenome, Data_nasc, CNS, Sexo, Telefone, Rua, 
 ('999.400.111-22', 'Fábio', 'Azevedo', '1990-12-03', '700000000000039', 'M', '91900998866', 'Avenida dos Estados', 'Centro', 3636),  
 ('020.111.222-33', 'Renata', 'Brito', '1987-05-17', '700000000000040', 'F', '11999887755', 'Rua das Margaridas', 'Botafogo', 3737),  
 
--- 50 agente_comunitario
+-- 40 agente_comunitario
 ('123.456.789-09', 'Thiago', 'Melo', '1975-03-22', '700000000000041', 'M', '21988776644', 'Rua das Oliveiras', 'Vila Olímpia', 3838),  
 ('234.567.890-12', 'Priscila', 'Castro', '1989-10-07', '700000000000042', 'F', '31977665533', 'Avenida das Nações', 'Boa Viagem', 3939),  
 ('345.678.901-23', 'Alexandre', 'Freitas', '1967-07-15', '700000000000043', 'M', '41966554422', 'Travessa dos Girassóis', 'Jardim Botânico', 4040),  
@@ -58,7 +47,7 @@ INSERT INTO Pessoa (CPF, Pnome, Sobrenome, Data_nasc, CNS, Sexo, Telefone, Rua, 
 ('890.123.456-78', 'Daniela', 'Medeiros', '1972-05-03', '700000000000048', 'F', '91911009977', 'Travessa dos Cravos', 'Ipanema', 4545),  
 ('901.234.567-89', 'Erick', 'Santana', '1986-11-16', '700000000000049', 'M', '11900998866', 'Avenida das Palmeiras', 'Leblon', 4646),  
 ('012.345.678-90', 'Luana', 'Correia', '1995-02-09', '700000000000050', 'F', '21999887755', 'Rua das Margaridas', 'Botafogo', 4747),  
- --60 recepcionista
+ --50 recepcionista
  ('111.333.555-77', 'Raul', 'Tavares', '1979-09-24', '700000000000051', 'M', '31988776633', 'Rua das Pedras', 'Jardim Europa', 4848),  
 ('222.444.666-88', 'Marina', 'Ferreira', '1983-06-18', '700000000000052', 'F', '41977665522', 'Avenida das Flores', 'Bela Vista', 4949),  
 ('333.555.777-99', 'André', 'Barbosa', '1964-04-01', '700000000000053', 'M', '51966554411', 'Travessa dos Artistas', 'Santa Maria', 5050),  
@@ -69,7 +58,7 @@ INSERT INTO Pessoa (CPF, Pnome, Sobrenome, Data_nasc, CNS, Sexo, Telefone, Rua, 
 ('888.000.222-44', 'Camille', 'Nunes', '1982-01-29', '700000000000058', 'F', '11911009966', 'Travessa da Esperança', 'Vila Esperança', 5555),  
 ('999.111.333-55', 'Rogério', 'Carvalho', '1977-08-08', '700000000000059', 'M', '21900998855', 'Avenida dos Estados', 'Centro', 5656),  
 ('001.222.444-66', 'Isadora', 'Monteiro', '1994-05-21', '700000000000060', 'F', '31999887744', 'Rua das Acácias', 'Parque das Árvores', 5757),  
---70 tecnico_enfermagem
+--60 tecnico_enfermagem
 ('123.555.789-01', 'Márcio', 'Vieira', '1966-02-14', '700000000000061', 'M', '41988776622', 'Rua das Oliveiras', 'Vila Olímpia', 5858),  
 ('234.666.890-12', 'Elaine', 'Teixeira', '1980-11-07', '700000000000062', 'F', '51977665511', 'Avenida das Nações', 'Boa Viagem', 5959),  
 ('345.777.901-23', 'Sérgio', 'Mendes', '1993-04-30', '700000000000063', 'M', '61966554400', 'Travessa dos Girassóis', 'Jardim Botânico', 6060),  
@@ -84,105 +73,108 @@ INSERT INTO Pessoa (CPF, Pnome, Sobrenome, Data_nasc, CNS, Sexo, Telefone, Rua, 
 
 -- Inserção na tabela Profissionais_saude
 
-INSERT INTO profissionais_saude (CPF_profissional, id_profissional, turno, data_admissao, status) VALUES
+INSERT INTO profissionais_saude (CPF_profissional, turno, data_admissao, status) VALUES
 -- Primeiros 10 (Medicos)
-('123.987.654-32', '001', 'Manhã', '2018-05-12', 'Ativo'),
-('456.789.123-45', '002', 'Tarde', '2019-03-22', 'Ativo'),
-('789.123.456-78', '003', 'Noite', '2017-11-15', 'Ativo'),
-('321.654.987-09', '004', 'Manhã', '2020-02-10', 'Ativo'),
-('654.987.321-01', '005', 'Tarde', '2016-09-05', 'Ativo'),
-('987.321.654-12', '006', 'Noite', '2021-07-18', 'Ativo'),
-('135.246.357-48', '007', 'Manhã', '2019-08-30', 'Ativo'),
-('246.357.159-26', '008', 'Tarde', '2018-04-25', 'Ativo'),
-('357.159.246-37', '009', 'Noite', '2020-12-14', 'Ativo'),
-('159.246.357-18', '010', 'Manhã', '2022-01-07', 'Ativo'),
+('123.987.654-32', 'Manhã', '2018-05-12', 'Ativo'),
+('456.789.123-45', 'Tarde', '2019-03-22', 'Ativo'),
+('789.123.456-78', 'Noite', '2017-11-15', 'Ativo'),
+('321.654.987-09', 'Manhã', '2020-02-10', 'Ativo'),
+('654.987.321-01', 'Tarde', '2016-09-05', 'Ativo'),
+('987.321.654-12', 'Noite', '2021-07-18', 'Ativo'),
+('135.246.357-48', 'Manhã', '2019-08-30', 'Ativo'),
+('246.357.159-26', 'Tarde', '2018-04-25', 'Ativo'),
+('357.159.246-37', 'Noite', '2020-12-14', 'Ativo'),
+('159.246.357-18', 'Manhã', '2022-01-07', 'Ativo'),
 
 -- Próximos 10 (Enfermeiros)
-('111.222.333-43', '011', 'Tarde', '2017-06-19', 'Ativo'),
-('222.333.434-55', '012', 'Noite', '2019-10-08', 'Ativo'),
-('333.424.555-66', '013', 'Manhã', '2018-08-11', 'Ativo'),
-('444.515.666-77', '014', 'Tarde', '2020-05-23', 'Ativo'),
-('555.666.577-88', '015', 'Noite', '2016-12-30', 'Ativo'),
-('666.717.888-99', '016', 'Manhã', '2021-04-17', 'Ativo'),
-('777.488.999-00', '017', 'Tarde', '2019-09-03', 'Ativo'),
-('883.999.000-11', '018', 'Noite', '2017-07-22', 'Ativo'),
-('999.400.111-22', '019', 'Manhã', '2020-11-15', 'Ativo'),
-('020.111.222-33', '020', 'Tarde', '2018-02-28', 'Ativo'),
+('111.222.333-43', 'Tarde', '2017-06-19', 'Ativo'),
+('222.333.434-55', 'Noite', '2019-10-08', 'Ativo'),
+('333.424.555-66', 'Manhã', '2018-08-11', 'Ativo'),
+('444.515.666-77', 'Tarde', '2020-05-23', 'Ativo'),
+('555.666.577-88', 'Noite', '2016-12-30', 'Ativo'),
+('666.717.888-99', 'Manhã', '2021-04-17', 'Ativo'),
+('777.488.999-00', 'Tarde', '2019-09-03', 'Ativo'),
+('883.999.000-11', 'Noite', '2017-07-22', 'Ativo'),
+('999.400.111-22', 'Manhã', '2020-11-15', 'Ativo'),
+('020.111.222-33', 'Tarde', '2018-02-28', 'Ativo'),
 
 -- Próximos 10 (Agentes Comunitários)
-('123.456.789-09', '021', 'Manhã', '2019-01-14', 'Ativo'),
-('234.567.890-12', '022', 'Tarde', '2018-06-27', 'Ativo'),
-('345.678.901-23', '023', 'Manhã', '2020-03-09', 'Ativo'),
-('456.789.012-34', '024', 'Tarde', '2017-12-05', 'Ativo'),
-('567.890.123-45', '025', 'Manhã', '2021-08-16', 'Ativo'),
-('678.901.234-56', '026', 'Tarde', '2019-05-21', 'Ativo'),
-('789.012.345-67', '027', 'Manhã', '2018-10-12', 'Ativo'),
-('890.123.456-78', '028', 'Tarde', '2020-07-24', 'Ativo'),
-('901.234.567-89', '029', 'Manhã', '2017-04-18', 'Ativo'),
-('012.345.678-90', '030', 'Tarde', '2022-02-03', 'Ativo'),
+('123.456.789-09', 'Manhã', '2019-01-14', 'Ativo'),
+('234.567.890-12', 'Tarde', '2018-06-27', 'Ativo'),
+('345.678.901-23', 'Manhã', '2020-03-09', 'Ativo'),
+('456.789.012-34', 'Tarde', '2017-12-05', 'Ativo'),
+('567.890.123-45', 'Manhã', '2021-08-16', 'Ativo'),
+('678.901.234-56', 'Tarde', '2019-05-21', 'Ativo'),
+('789.012.345-67', 'Manhã', '2018-10-12', 'Ativo'),
+('890.123.456-78', 'Tarde', '2020-07-24', 'Ativo'),
+('901.234.567-89', 'Manhã', '2017-04-18', 'Ativo'),
+('012.345.678-90', 'Tarde', '2022-02-03', 'Ativo'),
 
 -- Próximos 10 (Recepcionistas)
-('111.333.555-77', '031', 'Manhã', '2018-09-11', 'Ativo'),
-('222.444.666-88', '032', 'Tarde', '2019-12-22', 'Ativo'),
-('333.555.777-99', '033', 'Manhã', '2020-06-15', 'Ativo'),
-('444.666.888-00', '034', 'Tarde', '2017-08-30', 'Ativo'),
-('555.777.999-11', '035', 'Manhã', '2021-03-07', 'Ativo'),
-('666.888.000-22', '036', 'Tarde', '2018-11-19', 'Ativo'),
-('777.999.111-33', '037', 'Manhã', '2019-07-25', 'Ativo'),
-('888.000.222-44', '038', 'Tarde', '2020-01-14', 'Ativo'),
-('999.111.333-55', '039', 'Manhã', '2017-05-28', 'Ativo'),
-('001.222.444-66', '040', 'Tarde', '2021-10-05', 'Ativo'),
+('111.333.555-77', 'Manhã', '2018-09-11', 'Ativo'),
+('222.444.666-88', 'Tarde', '2019-12-22', 'Ativo'),
+('333.555.777-99', 'Manhã', '2020-06-15', 'Ativo'),
+('444.666.888-00', 'Tarde', '2017-08-30', 'Ativo'),
+('555.777.999-11', 'Manhã', '2021-03-07', 'Ativo'),
+('666.888.000-22', 'Tarde', '2018-11-19', 'Ativo'),
+('777.999.111-33', 'Manhã', '2019-07-25', 'Ativo'),
+('888.000.222-44', 'Tarde', '2020-01-14', 'Ativo'),
+('999.111.333-55', 'Manhã', '2017-05-28', 'Ativo'),
+('001.222.444-66', 'Tarde', '2021-10-05', 'Ativo'),
 
 -- Últimos 10 (Técnicos de Enfermagem)
-('123.555.789-01', '041', 'Noite', '2018-04-16', 'Ativo'),
-('234.666.890-12', '042', 'Noite', '2019-11-27', 'Ativo'),
-('345.777.901-23', '043', 'Noite', '2020-08-13', 'Ativo'),
-('456.888.012-34', '044', 'Noite', '2017-10-09', 'Ativo'),
-('567.999.123-45', '045', 'Noite', '2021-05-22', 'Ativo'),
-('678.000.234-56', '046', 'Noite', '2019-02-18', 'Ativo'),
-('789.111.345-67', '047', 'Noite', '2018-07-31', 'Ativo'),
-('890.222.456-78', '048', 'Noite', '2020-03-26', 'Ativo'),
-('901.333.567-89', '049', 'Noite', '2017-09-14', 'Ativo'),
-('012.444.678-90', '050', 'Noite', '2021-12-08', 'Ativo');
+('123.555.789-01', 'Noite', '2018-04-16', 'Ativo'),
+('234.666.890-12', 'Noite', '2019-11-27', 'Ativo'),
+('345.777.901-23', 'Noite', '2020-08-13', 'Ativo'),
+('456.888.012-34', 'Noite', '2017-10-09', 'Ativo'),
+('567.999.123-45', 'Noite', '2021-05-22', 'Ativo'),
+('678.000.234-56', 'Noite', '2019-02-18', 'Ativo'),
+('789.111.345-67', 'Noite', '2018-07-31', 'Ativo'),
+('890.222.456-78', 'Noite', '2020-03-26', 'Ativo'),
+('901.333.567-89', 'Noite', '2017-09-14', 'Ativo'),
+('012.444.678-90', 'Noite', '2021-12-08', 'Ativo');
 
 INSERT INTO Medico VALUES
 
-('123.987.654-32', '04050010-0/BR'),
-('456.789.123-45', '05600100-0/BR'),
-('789.123.456-78', '00781005-0/BR'),
-('321.654.987-09', '00019050-0/BR'),
-('654.987.321-01', '00103009-0/BR'),
-('987.321.654-12', '01040008-0/BR'),
-('135.246.357-48', '10006007-0/BR'),
-('246.357.159-26', '10200701-0/BR'),
-('357.159.246-37', '10098010-0/BR'),
-('159.246.357-18', '10800100-0/BR');
+('123.987.654-32', 'MED001'),
+('456.789.123-45', 'MED002'),
+('789.123.456-78', 'MED003'),
+('321.654.987-09', 'MED004'),
+('654.987.321-01', 'MED005'),
+('987.321.654-12', 'MED006'),
+('135.246.357-48', 'MED007'),
+('246.357.159-26', 'MED008'),
+('357.159.246-37', 'MED009'),
+('159.246.357-18', 'MED010');
+
 
 INSERT INTO Enfermeiro VALUES
 
-('111.222.333-43', '100.002-ENF'),
-('222.333.434-55', '030.020-ENF'),
-('333.424.555-66', '004.200-ENF'),
-('444.515.666-77', '802.500-ENF'),
-('555.666.577-88', '020.060-ENF'),
-('666.717.888-99', '270.007-ENF'),
-('777.488.999-00', '206.082-ENF'),
-('883.999.000-11', '290.920-ENF'),
-('999.400.111-22', '200.210-ENF'),
-('020.111.222-33', '202.801-ENF');
+('111.222.333-43', 'ENF001'),
+('222.333.434-55', 'ENF002'),
+('333.424.555-66', 'ENF003'),
+('444.515.666-77', 'ENF004'),
+('555.666.577-88', 'ENF005'),
+('666.717.888-99', 'ENF006'),
+('777.488.999-00', 'ENF007'),
+('883.999.000-11', 'ENF008'),
+('999.400.111-22', 'ENF009'),
+('020.111.222-33', 'ENF010');
+
 
 INSERT INTO Tecnico_Enfermagem VALUES
 
-('123.555.789-01', '010.003-TE'),
-('234.666.890-12', '202.030-TE'),
-('345.777.901-23', '040.302-TE'),
-('456.888.012-34', '003.000-TE'),
-('567.999.123-45', '030.050-TE'),
-('678.000.234-56', '320.700-TE'),
-('789.111.345-67', '300.803-TE'),
-('890.222.456-78', '302.030-TE'),
-('901.333.567-89', '300.305-TE'),
-('012.444.678-90', '303.090-TE');
+('123.555.789-01', 'TE001'),
+('234.666.890-12', 'TE002'),
+('345.777.901-23', 'TE003'),
+('456.888.012-34', 'TE004'),
+('567.999.123-45', 'TE005'),
+('678.000.234-56', 'TE006'),
+('789.111.345-67', 'TE007'),
+('890.222.456-78', 'TE008'),
+('901.333.567-89', 'TE009'),
+('012.444.678-90', 'TE010');
+
 
 INSERT INTO Agente_Comunitario VALUES
 ('123.456.789-09', 'Centro', 22),
@@ -208,7 +200,7 @@ INSERT INTO Recepcionista VALUES
 ('999.111.333-55', 'Manhã'),
 ('001.222.444-66', 'Tarde');
 
--- Inserção na tabela Paciente
+
 INSERT INTO paciente (cpf_paciente, grupoprioritario) VALUES
 ('123.456.789-01', FALSE),
 ('987.654.321-02', FALSE),
@@ -222,87 +214,78 @@ INSERT INTO paciente (cpf_paciente, grupoprioritario) VALUES
 ('444.555.666-11', FALSE);
 
 
--- Tabela Sintomas
-CREATE TABLE Sintomas (
-    ID_Sintoma SERIAL PRIMARY KEY,
-    CPF VARCHAR(14),
-    Sintomas TEXT,
-    Descricao TEXT,
-    ID_Triagem INTEGER,
-    FOREIGN KEY (CPF) REFERENCES Paciente(CPF_paciente),
-    FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem) -- Nova chave estrangeira
-);
+INSERT INTO Triagem (ID_Triagem, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, Classificacao_Prioridade) VALUES
+(1, '111.222.333-43', '123.555.789-01', '123.456.789-01', 2),
+(2, '222.333.434-55', '234.666.890-12', '987.654.321-02', 1),
+(3, '333.424.555-66', '345.777.901-23', '111.222.333-44', 3),
+(4, '444.515.666-77', '456.888.012-34', '555.666.777-88', 2),
+(5, '555.666.577-88', '567.999.123-45', '000.999.888-77', 4),
+(6, '666.717.888-99', '678.000.234-56', '333.444.555-66', 1),
+(7, '777.488.999-00', '789.111.345-67', '666.777.888-99', 2),
+(8, '883.999.000-11', '890.222.456-78', '222.333.444-55', 3),
+(9, '999.400.111-22', '901.333.567-89', '777.888.999-00', 4),
+(10, '020.111.222-33', '012.444.678-90', '444.555.666-11', 1);
 
 INSERT INTO Sintomas (CPF, Sintomas, Descricao, ID_Triagem) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
+('123.456.789-01', 'Febre, dor de cabeça', 'Paciente com febre alta e dor de cabeça intensa', 1),
+('987.654.321-02', 'Dor abdominal', 'Dor no abdômen inferior direito', 2),
+('111.222.333-44', 'Tosse, falta de ar', 'Tosse seca persistente e dificuldade para respirar', 3),
+('555.666.777-88', 'Dor nas costas', 'Dor lombar aguda após esforço físico', 4),
+('000.999.888-77', 'Tontura, fraqueza', 'Idoso com tonturas frequentes e fraqueza generalizada', 5),
+('333.444.555-66', 'Dor de garganta', 'Garganta inflamada e dificuldade para engolir', 6),
+('666.777.888-99', 'Dor no peito', 'Dor torácica ao respirar profundamente', 7),
+('222.333.444-55', 'Febre, dor no corpo', 'Febre e dores musculares generalizadas', 8),
+('777.888.999-00', 'Pressão alta', 'Hipertensão arterial descontrolada', 9),
+('444.555.666-11', 'Dor nas articulações', 'Dor e inchaço nas articulações dos joelhos', 10);
 
-INSERT INTO Triagem (ID_Triagem, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, Classificacao_Prioridade) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
+INSERT INTO Sinais_Vitais (Triagem_ID, Temperatura, Pressao_Arterial, Frequencia_Cardiaca, Frequencia_Respiratoria) VALUES
+(1, 38.5, '120/80', 90, 18),
+(2, 36.8, '110/70', 75, 16),
+(3, 37.9, '130/85', 100, 22),
+(4, 36.5, '125/82', 80, 17),
+(5, 36.2, '150/90', 85, 15),
+(6, 37.2, '118/78', 78, 16),
+(7, 36.9, '135/88', 92, 19),
+(8, 38.2, '140/95', 95, 20),
+(9, 36.7, '160/100', 88, 18),
+(10, 37.1, '122/80', 82, 17);
 
-INSERT INTO Sinais_Vitais (ID_Triagem, Temperatura, Pressao_Arterial , Frequencia_Cardiaca, Frequencia_Respiratoria) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
-
-INSERT INTO Consulta (ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, CPF_Medico, Data_Consulta, Status) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
 
 -- Tabela Fila
 
-INSERT INTO Fila (CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
+INSERT INTO Fila (ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, status, hora_entrada, hora_atendimento) VALUES
+(1, '111.222.333-43', '123.555.789-01', '123.456.789-01', 1, 'Atendido', '2023-01-10 08:30:00', '2023-01-10 09:15:00'),
+(2, '222.333.434-55', '234.666.890-12', '987.654.321-02', 2, 'Atendido', '2023-01-10 09:00:00', '2023-01-10 09:45:00'),
+(3, '333.424.555-66', '345.777.901-23', '111.222.333-44', 3, 'Atendido', '2023-01-10 09:30:00', '2023-01-10 10:30:00'),
+(4, '444.515.666-77', '456.888.012-34', '555.666.777-88', 4, 'Atendido', '2023-01-10 10:00:00', '2023-01-10 11:00:00'),
+(5, '555.666.577-88', '567.999.123-45', '000.999.888-77', 5, 'Atendido', '2023-01-10 10:30:00', '2023-01-10 11:45:00'),
+(6, '666.717.888-99', '678.000.234-56', '333.444.555-66', 6, 'Atendido', '2023-01-10 11:00:00', '2023-01-10 12:00:00'),
+(7, '777.488.999-00', '789.111.345-67', '666.777.888-99', 7, 'Atendido', '2023-01-10 11:30:00', '2023-01-10 13:00:00'),
+(8, '883.999.000-11', '890.222.456-78', '222.333.444-55', 8, 'Atendido', '2023-01-10 12:00:00', '2023-01-10 14:00:00'),
+(9, '999.400.111-22', '901.333.567-89', '777.888.999-00', 9, 'Atendido', '2023-01-10 12:30:00', '2023-01-10 14:30:00'),
+(10, '020.111.222-33', '012.444.678-90', '444.555.666-11', 10, 'Atendido', '2023-01-10 13:00:00', '2023-01-10 15:00:00');
 
-INSERT INTO Encaminhamento (CPF, Data_Encaminhamento, ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, CPF_Medico, ID_Consulta) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
+INSERT INTO Consulta (ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, CPF_Medico, Data_Consulta, Status) VALUES
+(1, '111.222.333-43', '123.555.789-01', '123.456.789-01', 1, '123.987.654-32', '2023-01-10', 'Concluída'),
+(2, '222.333.434-55', '234.666.890-12', '987.654.321-02', 2, '456.789.123-45', '2023-01-10', 'Concluída'),
+(3, '333.424.555-66', '345.777.901-23', '111.222.333-44', 3, '789.123.456-78', '2023-01-10', 'Concluída'),
+(4, '444.515.666-77', '456.888.012-34', '555.666.777-88', 4, '321.654.987-09', '2023-01-10', 'Concluída'),
+(5, '555.666.577-88', '567.999.123-45', '000.999.888-77', 5, '654.987.321-01', '2023-01-10', 'Concluída'),
+(6, '666.717.888-99', '678.000.234-56', '333.444.555-66', 6, '987.321.654-12', '2023-01-10', 'Concluída'),
+(7, '777.488.999-00', '789.111.345-67', '666.777.888-99', 7, '135.246.357-48', '2023-01-10', 'Concluída'),
+(8, '883.999.000-11', '890.222.456-78', '222.333.444-55', 8, '246.357.159-26', '2023-01-10', 'Concluída'),
+(9, '999.400.111-22', '901.333.567-89', '777.888.999-00', 9, '357.159.246-37', '2023-01-10', 'Concluída'),
+(10, '020.111.222-33', '012.444.678-90', '444.555.666-11', 10, '159.246.357-18', '2023-01-10', 'Concluída');
+
+INSERT INTO Encaminhamento (CPF, Data_Encaminhamento, Descricao, Destino_Encaminhamento, ID_Fila, CPF_Enfermeiro, CPF_Tecnico, CPF_Paciente, ID_Triagem, CPF_Medico, ID_Consulta
+) VALUES
+('987.654.321-02', '2023-01-10', 'Paciente com dor abdominal característica de apendicite', 'Hospital Municipal', 2, '222.333.434-55', '234.666.890-12', '987.654.321-02', 2, '456.789.123-45', 2),
+('111.222.333-44', '2023-01-10', 'Paciente com suspeita de pneumonia', 'Hospital Regional', 3, '333.424.555-66', '345.777.901-23', '111.222.333-44', 3, '789.123.456-78', 3),
+('000.999.888-77', '2023-01-10', 'Paciente idoso com crise hipertensiva', 'Cardiologia - Hospital Central', 5, '555.666.577-88', '567.999.123-45', '000.999.888-77', 5, '654.987.321-01', 5),
+('666.777.888-99', '2023-01-10', 'Paciente com dor torácica suspeita', 'Pronto Socorro Cardiológico', 7, '777.488.999-00', '789.111.345-67', '666.777.888-99', 7, '135.246.357-48', 7),
+('222.333.444-55', '2023-01-10', 'Paciente com febre persistente e sintomas gripais', 'Infectologia - Hospital Universitário', 8, '883.999.000-11', '890.222.456-78', '222.333.444-55', 8, '246.357.159-26', 8),
+('777.888.999-00', '2023-01-10', 'Paciente com hipertensão arterial grave', 'Emergência Hospitalar', 9, '999.400.111-22', '901.333.567-89', '777.888.999-00', 9, '357.159.246-37', 9),
+('123.456.789-01', '2023-01-10', 'Paciente com febre alta sem melhora', 'Clínica Médica', 1, '111.222.333-43', '123.555.789-01', '123.456.789-01', 1, '123.987.654-32', 1),
+('555.666.777-88', '2023-01-10', 'Paciente com dor lombar incapacitante', 'Ortopedia - Hospital das Clínicas', 4, '444.515.666-77', '456.888.012-34', '555.666.777-88', 4, '321.654.987-09', 4),
+('333.444.555-66', '2023-01-10', 'Paciente com amigdalite bacteriana', 'Otorrinolaringologia', 6, '666.717.888-99', '678.000.234-56', '333.444.555-66', 6, '987.321.654-12', 6),
+('444.555.666-11', '2023-01-10', 'Paciente com artrite suspeita', 'Reumatologia', 10, '020.111.222-33', '012.444.678-90', '444.555.666-11', 10, '159.246.357-18', 10);
