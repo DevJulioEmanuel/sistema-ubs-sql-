@@ -106,6 +106,9 @@ CREATE TABLE Consulta (
     CPF_Medico VARCHAR(14),
     Data_Consulta DATE,
     Status VARCHAR(20),
+    Conduta TEXT,
+    Diagnostico TEXT,
+    Observacoes_Adicionais TEXT,
     FOREIGN KEY (CPF_Enfermeiro) REFERENCES Enfermeiro(CPF_enfermeiro),
     FOREIGN KEY (CPF_Tecnico) REFERENCES Tecnico_Enfermagem(CPF_tecnico),
     FOREIGN KEY (CPF_Paciente) REFERENCES Paciente(CPF_paciente),
@@ -123,7 +126,7 @@ CREATE TABLE Fila (
 	status varchar(50),
 	hora_entrada TIMESTAMP,
 	hora_atendimento TIMESTAMP,
-    FOREIGN KEY (CPF_Enfermeiro) REFERENCES Enfermeiro(CPF_enfermeiro),
+    FOREIGN KEY (CPF_Enfermeiro) REFERENCES Enferm  enfermeiro),
     FOREIGN KEY (CPF_Tecnico) REFERENCES Tecnico_Enfermagem(CPF_tecnico),
     FOREIGN KEY (CPF_Paciente) REFERENCES Paciente(CPF_paciente),
     FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem)
