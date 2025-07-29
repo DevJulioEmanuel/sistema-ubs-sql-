@@ -129,7 +129,7 @@ CREATE TABLE Fila (
     FOREIGN KEY (CPF_Enfermeiro) REFERENCES Enferm  enfermeiro),
     FOREIGN KEY (CPF_Tecnico) REFERENCES Tecnico_Enfermagem(CPF_tecnico),
     FOREIGN KEY (CPF_Paciente) REFERENCES Paciente(CPF_paciente),
-    FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem)
+    FOREIGN KEY (ID_Triagem) REFERENCES Triagem(ID_Triagem),
 );
 
 -- Tabela Encaminhamento
